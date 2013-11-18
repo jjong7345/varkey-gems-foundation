@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Stag Sans BookItalic Web';
+  src: url('fonts/StagSans-BookItalic-Web.eot');
+  src: url('fonts/StagSans-BookItalic-Web.eot?#iefix') format('embedded-opentype'),
+     url('fonts/StagSans-BookItalic-Web.woff') format('woff'),
+     url('fonts/StagSans-BookItalic-Web.ttf') format('truetype'),
+     url('fonts/StagSans-BookItalic-Web.svg#Stag Sans Web') format('svg');
+  font-weight:  400;
+  font-style:   italic;
+}
+
+.StagSans-BookItalic-Web {
+  font-family: 'Stag Sans BookItalic Web';
+  font-weight:  400;
+  font-style:   italic;
+  -webkit-font-smoothing:antialiased;
+}
+
+@font-face {
+  font-family: 'Stag Sans Light Web';
+  src: url('fonts/StagSans-Light-Web.eot');
+  src: url('fonts/StagSans-Light-Web.eot?#iefix') format('embedded-opentype'),
+     url('fonts/StagSans-Light-Web.woff') format('woff'),
+     url('fonts/StagSans-Light-Web.ttf') format('truetype'),
+     url('fonts/StagSans-Light-Web.svg#Stag Sans Web') format('svg');
+  font-weight:  300;
+  font-style:   normal;
+}
+
+.StagSans-Light-Web {
+  font-family: 'Stag Sans Light Web';
+  font-weight:  300;
+  font-style:   normal;
+  -webkit-font-smoothing:antialiased;
+}
+
+@font-face {
+  font-family: 'Stag Sans Medium Web';
+  src: url('fonts/StagSans-Medium-Web.eot');
+  src: url('fonts/StagSans-Medium-Web.eot?#iefix') format('embedded-opentype'),
+     url('fonts/StagSans-Medium-Web.woff') format('woff'),
+     url('fonts/StagSans-Medium-Web.ttf') format('truetype'),
+     url('fonts/StagSans-Medium-Web.svg#Stag Sans Web') format('svg');
+  font-weight:  500;
+  font-style:   normal;
+}
+
+.StagSans-Medium-Web {
+  font-family: 'Stag Sans Medium Web';
+  font-weight:  500;
+  font-style:   normal;
+  -webkit-font-smoothing:antialiased;
+}
+
+body, img, p {
+	margin:0;
+	padding:0;
+}
+p { color:#FFFFFF }
+
+body { background:#5675a9; min-width:1024px; }
+.outer_div {
+	width:100%;
+	overflow:hidden;
+}
+.container {
+	width:1024px;
+	margin:0px auto;
+	/*background:#526f9f;*/
+}
+
+.section { height:768px; position:relative; /*border-bottom:1px solid #526F9F*/ }
+
+.parallax_object {
+	text-align:center;
+	position:absolute;
+	left:50%;
+	/*-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	*/
+	
+}
+.logo { margin:50px }
+
+.p1_e1 { margin-left:-455px; top:260px;}
+.p1_e2 { margin-left:-200px; top:195px;}
+.p1_e2 img { position:relative }
+.p1_e3 { text-align:center; margin-top:380px; }
+.p1_e3 p {
+	font-size:20px;
+	margin-top:15px;
+}
+
+
+.p2_e1 { margin-left:-512px }
+.p2_e2 { width:1024px;  margin-left:-512px; text-align:center; top:540px }
+.p2_e3 { width:1024px;  margin-left:-512px; text-align:center; top:630px }
+.p2_e4 { width:1024px;  margin-left:-512px; text-align:center; top:700px }
+
+.p2 .t1 { font-size:39px }
+.p2 .t2 { font-size:20px }
+.p2 .t3 { font-size:18px; line-height:22px;}
+
+
+
+/************/
+.guide_line {
+	position:absolute;
+	height:1px;
+	width:100%;
+	background:#e82242;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.space { margin-left:4px }
+.footer {
+	padding:180px;
+}
